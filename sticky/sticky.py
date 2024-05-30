@@ -13,7 +13,7 @@ from redbot.core.utils.predicates import MessagePredicate, ReactionPredicate
 UNIQUE_ID = 0x6AFE8000
 
 log = logging.getLogger("red.sticky")
-
+allowed_mentons=discord.AllowedMentions(roles=True)
 
 class Sticky(commands.Cog):
     """Sticky messages to your channels."""
